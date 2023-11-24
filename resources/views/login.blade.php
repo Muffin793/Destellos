@@ -29,7 +29,7 @@
                 <div class="v146_73">
                     <div class="v146_70">
                         <a href="menu"><div class="v146_71"></div></a>
-                        <a href="menu"><span class="v146_72">INICIAR</span></a>
+                        <a href="vistapremenu"><span class="v146_72">INICIAR</span></a>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,8 @@
         </div>
         <span class="v22_43">CORREO</span>
         <span class="v22_44">CONTRASEÑA</span>
-        <div class="v139_53"></div>
+        
     </div>
 </body>
 </html>
+@include('vistapremenu')

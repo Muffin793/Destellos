@@ -27,6 +27,7 @@ Route::controller(UserController::Class)->group(function(){
     Route::get('login','ingreso');
     Route::get('registro','registros');
     Route::get('carrito','carritos');
+    Route::get('vistapremenu','menuemergente');
 });
 
 Route::controller(AdminController::Class)->group(function(){

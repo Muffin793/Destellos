@@ -32,4 +32,8 @@ class UserController extends Controller
     public function carritos(){
         return view('carrito');
     }
+
+    public function menuemergente(){
+        return view('vistapremenu');
+    }
 }
