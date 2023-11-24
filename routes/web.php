@@ -28,6 +28,10 @@ Route::controller(UserController::Class)->group(function(){
     Route::get('registro','registros');
     Route::get('carrito','carritos');
     Route::get('vistapremenu','menuemergente');
+    Route::get('tablaxd','ShowCompus');
+    Route::get('formularioborrable','formulario');
+    Route::post('alumnos','crearAlumno');
+
 });
 
 Route::controller(AdminController::Class)->group(function(){

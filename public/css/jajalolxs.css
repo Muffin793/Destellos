@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    margin: 20px 0;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para la tabla */
+/* Estilos para la tabla */
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    width: 70%; /* Ancho al 70% */
+    float: left; /* Flotar a la izquierda */
+}
+
+/* Estilos para el aside */
+aside {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    width: 100%; /* Ancho al 100% para extenderlo */
+    float: right; /* Flotar a la derecha */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para los iconos de redes sociales en el footer */
+footer a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Estilos para el formulario de suscripción en el footer */
+footer form {
+    margin-top: 10px;
+}
+
+/* Estilos para la sección de géneros, artistas y canciones (puedes agregar más estilos específicos aquí) */
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    /* Ajusta el tamaño del logo en pantallas pequeñas */
+    header img {
+        max-width: 100px;
+    }
+}
+
+.imagen{
+    flex: 1;
+    width: 300px;
+}
+
+.logos{
+    flex: 1;
+    width: 50px;
+}
+
+.albumcover{
+    width: 120px;
+}
+
+.botones{
+    width: 50px;
+    
+    margin-left: 50px;
+}

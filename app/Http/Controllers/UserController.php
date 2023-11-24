@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CompusModel;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -36,4 +37,27 @@ class UserController extends Controller
     public function menuemergente(){
         return view('vistapremenu');
     }
+
+    public function ShowCompus(){
+        $compus=CompusModel::all();
+        //return $compus;
+        return view('tablaxd', compact('compus'));
+    }
+
+    public function formulario(){
+        return view('formularioborrable');
+    }
+
+    public function crearalumno(Request $request){
+        $obj=new CompusModel;
+        $obj->modelo=$request->modelo;
+        $obj->ram=$request->ram;
+        $obj->precio=$request->precio;
+        $obj->save();
+        $compus=CompusModel::all();
+        //return $compus;
+        return view('tablaxd', compact('compus'));
+
+    }
+
 }

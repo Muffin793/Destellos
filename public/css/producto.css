@@ -273,3 +273,36 @@ body {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
+
+.v102_11-select {
+  width: 216px;
+  height: 75px;
+  background: rgba(255, 253, 246, 1);
+  opacity: 1;
+  position: absolute;
+  top: 299px;
+  left: 1122px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Grenze;
+  font-weight: Regular;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+}
+
+
+.v152_80 {
+  width: 300px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 92px;
+  left: 836px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}

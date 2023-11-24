@@ -4,11 +4,17 @@
 <html>
     <body>
     <div class="v152_10"></div>
-    <div class="v152_11"></div>
-    <span class="v152_12">TALLA</span>
+    <label for="talla" class="v152_11">TALLA</label>
+  <select id="talla" class="v152_11 v102_11-select">
+    <option value="chica">Chica</option>
+    <option value="mediana">Mediana</option>
+    <option value="grande">Grande</option>
+  </select>
+    
     <div class="v152_13">
-      <div class="v152_14"></div>
-      <span class="v152_15">AGREGAR A CARRITO</span>
+
+    <a href="carrito"><div class="v152_14"></div></a>
+      <a href="carrito"><span class="v152_15">AGREGAR A CARRITO</span></a>
     </div>
     <div class="v152_16"></div>
     <span class="v152_17">PRECIO:</span>

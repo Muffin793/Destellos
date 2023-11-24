@@ -3,11 +3,11 @@
 @section('contenido')
       <body>
     <link href="./css/product3.css" rel="stylesheet" />
-    <div class="v152_33"></div>
-    <span class="v152_34">TALLA</span>
+    <a href="carrito"><div class="v152_33"></div></a>
+    <a href="carrito"><span class="v152_34">TALLA</span></a>
     <div class="v152_35">
-      <div class="v152_36"></div>
-      <span class="v152_37">AGREGAR A CARRITO</span>
+    <a href="carrito"><div class="v152_36"></div></a>
+      <a href="carrito"><span class="v152_37">AGREGAR A CARRITO</span></a>
     </div>
     <div class="v152_38"></div>
     <span class="v152_39">PRECIO:</span>

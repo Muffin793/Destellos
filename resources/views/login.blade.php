@@ -47,4 +47,3 @@
     </div>
 </body>
 </html>
-@include('vistapremenu')
