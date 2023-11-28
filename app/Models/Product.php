@@ -10,9 +10,19 @@ class Product extends Model
     use HasFactory;
     protected $table="Products";
 
-    public function price(){
-        return $this->hasOne(Category::class);
+    public function Stock()
+    {
+        return $this->HasOne(Stocks::class)
+    }
 
+    public function Category()
+    {
+        return $this->belongsTo(Categgory::class)
+    }
+
+    public function Price()
+    {
+        return $this->HasOne(Price::class)
     }
     
 }
