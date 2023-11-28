@@ -9,4 +9,9 @@ class Category extends Model
 {
     use HasFactory;
     protected $table="Categories";
+
+    public function categorie():HasMany
+    {
+        return $this->HasMany(App\Models\Category::class);
+    }
 }

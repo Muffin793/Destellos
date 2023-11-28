@@ -8,5 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
-    protected $table="Prices";
+    protected $table="Products";
+
+    public function price(){
+        return $this->hasOne(Category::class);
+
+    }
+    
 }
