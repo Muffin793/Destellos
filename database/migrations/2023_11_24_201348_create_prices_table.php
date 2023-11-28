@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('prices', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('product_id')->unsigned();
+            $table->float('buy_price');
+            $table->float('sell_price');
+
+            $table->foreign('product_id')->references('id')->on('products')
+            ->onDelete('cascade')
+            ->onUpdate('cascade');
             $table->timestamps();
         });
     }

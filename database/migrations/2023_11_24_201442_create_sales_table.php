@@ -13,6 +13,20 @@ return new class extends Migration
     {
         Schema::create('sales', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('user_id')->unsigned();
+            $table->bigInteger('product_id')->unsigned();
+            $table->bigInteger('quantity');
+            $table->float('total_without_iva');
+            $table->float('iva');
+            $table->float('total_with_iva');
+
+            $table->foreign('user_id')->references('id')->on('users')
+            ->onDelete('cascade')
+            ->onUpdate('cascade');
+ 
+            $table->foreign('product_id')->references('id')->on('products')
+            ->onDelete('cascade')
+            ->onUpdate('cascade');
             $table->timestamps();
         });
     }
