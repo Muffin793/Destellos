@@ -2,11 +2,6 @@
 
 @section('contenido')
 
-  <link href="./css/producto.css" rel="stylesheet" />
-  <title>Document</title>
-
-
-<body>
 <div class="v374_28"></div>
     </div>
     <div class="v445_197">
