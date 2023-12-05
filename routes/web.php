@@ -31,11 +31,15 @@ Route::controller(UserController::Class)->group(function(){
     Route::get('tablaxd','ShowCompus');
     Route::get('formularioborrable','formulario');
     Route::post('alumnos','crearAlumno');
+    Route::get('login2','login2');
+
 
 });
 
 Route::controller(AdminController::Class)->group(function(){
     Route::get('eliminar','delete');
     Route::get('consulta','consult');
-    
+    Route::get('menuadmin','menu');   
+    Route::get('modificar','modificar');   
+    Route::get('agregar','agregar'); 
 });

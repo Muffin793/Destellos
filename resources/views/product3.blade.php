@@ -1,31 +1,33 @@
 @extends('padre')
 
 @section('contenido')
-      <body>
-    <link href="./css/product3.css" rel="stylesheet" />
-    <a href="carrito"><div class="v152_33"></div></a>
-    <a href="carrito"><span class="v152_34">TALLA</span></a>
-    <div class="v152_35">
-    <a href="carrito"><div class="v152_36"></div></a>
-      <a href="carrito"><span class="v152_37">AGREGAR A CARRITO</span></a>
+<html>
+    <body>
+    <div class="name"></div>
+    <div class="v378_1176"></div>
+    <div class="v152_13">
+      <div class="v152_14"></div>
+      <span class="v152_15">AGREGAR A CARRITO</span>
     </div>
-    <div class="v152_38"></div>
-    <span class="v152_39">PRECIO:</span>
-    <span class="v152_40">DESC:</span>
-    <span class="v152_41">TOTAL:</span>
-    <span class="v152_42">$990</span>
-    <span class="v152_43">$0</span>
-    <span class="v152_44">$990</span>
-    <div class="v152_45"></div>
-    <span class="v152_46">SACO CUADRICULADO B/N</span>
-    <span class="v152_47">
-      Saco pata de gallo estilo Channel<br>
-      <br>
-      <br>
-      <br>
-      $1100
-    </span>
-    <div class="v152_49"></div>
+    <div class="v378_134">
+      <span class="v378_117">Precio IVA $0 Precio $800<br> Total $800</span>
+    </div>
+    <span class="v378_118">Talla</span>
+    <span class="v378_129">Descripción: Abrigo Vinipiel Forrado con Peluche</span>
+    <span class="v378_126">Color</span>
+    <div class="v378_125">
+      <div class="v378_119"></div>
+      <div class="v378_120"></div>
+      <div class="v378_121"></div>
+      <span class="v378_122">C</span>
+      <span class="v378_123">M</span>
+      <span class="v378_124">G</span>
+    </div>
+    <div class="v378_127"></div>
+    <span class="v378_128">SACO TERCIOPELO</span>
+    <div class="v378_130"></div>
+    <div class="v378_132"></div>
+    <div class="v378_133"></div>
   </div>
 </body>
 </html>

@@ -1,24 +1,32 @@
 @extends('padre')
 
 @section('contenido')
-<html>
-<body>
-<link href="./css/main.css" rel="stylesheet" />
-   
-        <a href="product3"><div class="v23_17"></div></a>
-        <a href="product_view"><div class="v23_18"></div></a>
-        <a href="product2"><div class="v23_19"></div></a>
-        <a href="https://wa.me/message/WIMZWQQH3N3VE1"><div class="v33_125"></div></a>
-        <a href="product_view"><div class="v23_45"></div></a>
-        <a href="product3"><span class="v30_63">Saco Estilo Channel B/M $990</span></a>
-        <a href="product_view"><span class="v30_66">Abrigo Vinipiel Negro $1100</span></a>
-        <a href="product2"><span class="v30_68">Saco Terciopelo<br> $800</span></a>
-        <a href= "https://www.facebook.com/DestellosLiz?mibextid=LQQJ4d"><div class="v33_110"></div></a>
-        <a href="https://instagram.com/destellosbyliz?igshid=eWlidnRlb2twOGJp"><div class="v33_112"></div></a>
-        <a href="product3"><div class="v23_58"></div></a>
-        <a href="product2"><div class="v23_59"></div></a>
-    </div>
-</body>
 
+  <link href="./css/producto.css" rel="stylesheet" />
+  <title>Document</title>
+
+
+<body>
+<div class="v374_28"></div>
+    </div>
+    <div class="v445_197">
+    <a href="product_view"><div class="v374_30"></div>
+      <div class="v374_32"></div>
+      <span class="v374_34">Abrigo Vinipiel Negro $1100</span></a>
+    </div>
+    <a href="product2"><div class="v445_195">
+      <div class="v374_29"></div>
+      <span class="v374_33">Saco Estilo Channel B/M $990</span>
+      <div class="v374_36"></div>
+    </div></a>
+    <a href="product3"><div class="v445_199">
+      <div class="v374_31"></div>
+      <span class="v374_35">Saco Terciopelo $800</span>
+      <div class="v374_37"></div>
+    </div></a>
+    <div class="name"></div>
+  </div>
+</body>
 </html>
+
 @endsection

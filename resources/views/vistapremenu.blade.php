@@ -13,7 +13,7 @@
         <div class="v232_366">
             <div class="v232_365"></div>
             <div class="v232_361"></div>
-            <a href="consulta"><span class="v232_362">Administrador</span></a>
+            <a href="menuadmin"><span class="v232_362">Administrador</span></a>
         </div>
         <div class="v232_367">
             <div class="v232_368"></div>

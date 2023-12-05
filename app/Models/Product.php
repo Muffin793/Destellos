@@ -12,17 +12,17 @@ class Product extends Model
 
     public function Stock()
     {
-        return $this->HasOne(Stocks::class)
+        return $this->HasOne(Stocks::class);
     }
 
     public function Category()
     {
-        return $this->belongsTo(Categgory::class)
+        return $this->belongsTo(Categgory::class);
     }
 
     public function Price()
     {
-        return $this->HasOne(Price::class)
+        return $this->HasOne(Price::class);
     }
     
 }

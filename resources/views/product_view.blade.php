@@ -3,33 +3,31 @@
 @section('contenido')
 <html>
     <body>
-    <div class="v152_10"></div>
-    <label for="talla" class="v152_11">TALLA</label>
-  <select id="talla" class="v152_11 v102_11-select">
-    <option value="chica">Chica</option>
-    <option value="mediana">Mediana</option>
-    <option value="grande">Grande</option>
-  </select>
-    
+    <div class="name"></div>
+    <div class="v378_116"></div>
     <div class="v152_13">
-
-    <a href="carrito"><div class="v152_14"></div></a>
-      <a href="carrito"><span class="v152_15">AGREGAR A CARRITO</span></a>
+      <div class="v152_14"></div>
+      <span class="v152_15">AGREGAR A CARRITO</span>
     </div>
-    <div class="v152_16"></div>
-    <span class="v152_17">PRECIO:</span>
-    <span class="v152_18">DESC:</span>
-    <span class="v152_19">TOTAL:</span>
-    <span class="v152_20">$1100</span>
-    <span class="v152_21">$0</span>
-    <span class="v152_22">$1100</span>
-    <div class="v152_23"></div>
-    <span class="v152_24">ABRIGO VINIPIEL</span>
-    <span class="v152_25">
-      ABRIGO VINIPIEL FORRADO CON PELUCHE<br>
-      $1100
-    </span>
-    <div class="v152_27"></div>
+    <div class="v378_134">
+      <span class="v378_117">Precio IVA $0 Precio $1100 Total $1100</span>
+    </div>
+    <span class="v378_118">Talla</span>
+    <span class="v378_129">Descripción: Abrigo vinipiel forrado con peluche</span>
+    <span class="v378_126">Color</span>
+    <div class="v378_125">
+      <div class="v378_119"></div>
+      <div class="v378_120"></div>
+      <div class="v378_121"></div>
+      <span class="v378_122">C</span>
+      <span class="v378_123">M</span>
+      <span class="v378_124">G</span>
+    </div>
+    <div class="v378_127"></div>
+    <span class="v378_128">ABRIGO VINIPIEL</span>
+    <div class="v378_130"></div>
+    <div class="v378_132"></div>
+    <div class="v378_133"></div>
   </div>
 </body>
 </html>

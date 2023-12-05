@@ -38,6 +38,11 @@ class UserController extends Controller
         return view('vistapremenu');
     }
 
+    public function login2(){
+        return view('login2');
+    }
+
+
     public function ShowCompus(){
         $compus=CompusModel::all();
         //return $compus;
@@ -59,5 +64,8 @@ class UserController extends Controller
         return view('tablaxd', compact('compus'));
 
     }
+
+    
+
 
 }

@@ -1,42 +1,35 @@
  @extends('padre')
 
  @section('contenido')
- <body>
-  <link href="./css/producto2.css" rel="stylesheet" />
-
-  <label for="talla" class="v102_13">TALLA</label>
-  <select id="talla" class="v102_13 v102_11-select">
-    <option value="chica">Chica</option>
-    <option value="mediana">Mediana</option>
-    <option value="grande">Grande</option>
-  </select>
-
-  <div class="v102_15"></div>
-  <a href="carrito"><div class="v102_16"></div></a>
-  <a href="carrito"><span class="v102_17">AGREGAR A CARRITO</span></a>
-
-  <div class="v102_18"></div>
-  <span class="v102_19">PRECIO:</span>
-  <span class="v102_20">DESC:</span>
-  <span class="v102_21">TOTAL:</span>
-  <span class="v102_22">$800</span>
-  <span class="v102_23">$0</span>
-  <span class="v102_24">$800</span>
-  <div class="v102_25"></div>
-  <span class="v102_26">SACO TERCIOPELO</span>
-  <span class="v102_27">
-    Saco de tela terciopelo estilo vintage<br>
-    <br>
-    <br>
-    $1100
-  </span>
-  <span class="v193_60">
-    Saco de tela terciopelo estilo vintage<br>
-    $1100
-  </span>
-  <div class="v102_28"></div>
+ <html>
+    <body>
+    <div class="name"></div>
+    <div class="v378_1175"></div>
+    <div class="v152_13">
+      <div class="v152_14"></div>
+      <span class="v152_15">AGREGAR A CARRITO</span>
+    </div>
+    <div class="v378_134">
+      <span class="v378_117">Precio IVA $0 Precio $990<br> Total $990</span>
+    </div>
+    <span class="v378_118">Talla</span>
+    <span class="v378_129">Descripción: Saco pata de gallo estilo channel</span>
+    <span class="v378_126">Color</span>
+    <div class="v378_125">
+      <div class="v378_119"></div>
+      <div class="v378_120"></div>
+      <div class="v378_121"></div>
+      <span class="v378_122">C</span>
+      <span class="v378_123">M</span>
+      <span class="v378_124">G</span>
+    </div>
+    <div class="v378_127"></div>
+    <span class="v378_128">SACO CUADRICULADO B/N</span>
+    <div class="v378_130"></div>
+    <div class="v378_132"></div>
+    <div class="v378_133"></div>
+  </div>
 </body>
 </html>
-
 
 @endsection
